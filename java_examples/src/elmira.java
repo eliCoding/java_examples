@@ -9,7 +9,7 @@ public class elmira{
        int upperbound = 10;
        for ( int number = lowerbound; number <=upperbound; number++)
        {
-           if ( number % 2 == 0){
+           if ( number % 3 == 0){
               sum = number + sum ; 
               count = count + 1;
            }
