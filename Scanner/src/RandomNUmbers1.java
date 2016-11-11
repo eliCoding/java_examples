@@ -13,10 +13,10 @@ public class RandomNUmbers1 {
          myRandom1 = (int)(Math.random() * 20 );
          System.out.println("First Random number (1 to 20):" + myRandom1 );
        if ( gussNumber>myRandom1) {
-           System.out.println("ais greater than random number");
+           System.out.println("gussedNumber is greater than random number");
        }
        else {
-           System.out.println("a is less than random number");
+           System.out.println("gussedNumber is less than random number");
        }
     }
     
