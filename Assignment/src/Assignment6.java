@@ -1,4 +1,4 @@
-
+//@author elmira amanollahi
 import java.util.Scanner;
 
 public class Assignment6 {
