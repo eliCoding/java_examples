@@ -25,9 +25,9 @@ public class Array {
         int min = myInt[0];
         for (int i = 0; i<myInt.length; i++)
         {
-            if(myInt[i]>min)
+            if(myInt[i]<min)
             {
-                min = myInt[0];
+                min = myInt[i];
             
         }
         }
