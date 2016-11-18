@@ -1,4 +1,4 @@
-
+// @author elmira amanollahi
 import java.util.Scanner;
 
 public class Array1 {
@@ -10,7 +10,7 @@ public class Array1 {
         int[] number = new int[6];
         int sameNum = 0;
         for (int i = 0; i < lotNum.length; i++) {
-            lotNum[i] = (int) (Math.random() * 49 + 1);
+            lotNum[i] = (int) (Math.random() * 50 + 1);
 
             System.out.println("the random number is: " + lotNum[i]);
         }
@@ -26,29 +26,15 @@ public class Array1 {
         }
 
         for (int i = 0; i < 6; i++) {
-
-            /*for (int j=0; j<6; i++){
-                if (number [i] == lotNum [i])
-                {
-                    
-                }
-            }*/
-            for (int j = 0; j < 6; j++) {
-                if (number[0] == lotNum[j]) {
-                    sameNum = sameNum + 1;
-                }
+            if (lotNum[i]== number[i]) {
+                sameNum = sameNum+1;
             }
-            System.out.println("the same numbers are: " + sameNum);
-
+             
         }
-        for (int j = 0; j < 6; j++) {
-                if (number[1] == lotNum[j]) {
-                    sameNum = sameNum + 1;
-                }
-            }
-            System.out.println("the same numbers are: " + sameNum);
 
-        }
-        
+      
+        System.out.println("the same numbers are: " + sameNum);
+
     }
+}
 
