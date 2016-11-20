@@ -11,7 +11,7 @@ public class Dices {
         Scanner elmira = new Scanner(System.in);
         System.out.println("How many tosses?");
         n1 = elmira.nextInt();
-        while (n1<1 || n1>9) {
+        while (n1 < 1 || n1 > 6) {
             System.out.println("How many tosses?");
             n1 = elmira.nextInt();
         }
@@ -24,8 +24,8 @@ public class Dices {
             System.out.println("Second toss Number From (1 to 6): " + Dice2);
 
             Dices = Dice1 + Dice2;
-            System.out.println("First Toss+Second Toss: " + Dices);
-            n1 = n1 - 1;
+            System.out.println("Dices " + Dices);
+            n1--;
 
         } while (n1 > 0 && Dices != 7);
     }
