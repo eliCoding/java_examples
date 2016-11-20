@@ -4,7 +4,7 @@ public class ArrayArray4 {
 
     public static void main(String[] args) {
         int[][] myTable = new int[10][10];
-          int ones = 10;
+          
           int xrand;
           int yrand;
        

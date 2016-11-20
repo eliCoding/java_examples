@@ -20,9 +20,9 @@ public class Array1 {
 
             number[i] = elmira.nextInt();
         }
-
+        System.out.println("your numbers are");
         for (int i = 0; i < 6; i++) {
-            System.out.println("your numbers are: " + number[i]);
+            System.out.println(number[i] + " ");
         }
 
         for (int i = 0; i < 6; i++) {

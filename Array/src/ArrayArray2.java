@@ -24,7 +24,7 @@ public class ArrayArray2 {
 //?
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                myTable[i][j] = k;
+                myTable[i][j] = i;
                // k++;
                 
                 System.out.print(i + j);

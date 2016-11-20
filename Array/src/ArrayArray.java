@@ -1,5 +1,7 @@
 
 // @author Elmira
+
+//nested loop 
 public class ArrayArray {
 
     public static void main(String[] args) {
