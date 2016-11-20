@@ -6,9 +6,9 @@ public class NewClass {
         int b;
         int c;
         Scanner elmira = new Scanner(System.in);
-         System.out.println("first number:");
+         System.out.println(" first number:");
         a = elmira.nextInt();
-         System.out.println("second number:");
+         System.out.println(" the second number");
         b = elmira.nextInt();
         System.out.println("Answer:");
         c = a + b;
