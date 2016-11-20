@@ -1,4 +1,5 @@
 //@author elmira amanollahi
+
 public class Assignment2 {
 
     public static void main(String[] args) {
@@ -27,9 +28,7 @@ public class Assignment2 {
         } while (Sum != 7 && n < 7);
         if (Sum == 7) {
             System.out.println("You are a winner");
-        }
-
-        else {
+        } else {
             System.out.println("Better luck next time!Play again");
         }
 

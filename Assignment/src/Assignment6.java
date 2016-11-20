@@ -69,7 +69,7 @@ public class Assignment6 {
     }
 
     public static void chinesesign() {
-        Scanner input = new Scanner(System.in);
+        
         int y = 0;
         Scanner elmira = new Scanner(System.in);
         System.out.println("Please enter your Birth Year:");
