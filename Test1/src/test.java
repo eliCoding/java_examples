@@ -66,18 +66,18 @@ public class test {
 
             }
 
-        } while (n1 < 7);
+        } while (n1 != 7);
 
     }
 
     public static void luckGame() {
         Scanner elmira = new Scanner(System.in);
         int[] myInt = new int[6];
-        int[] number = new int[6];
+        int number = 0;
         for (int i = 0; i < myInt.length; i++) {
 
             myInt[i] = (int) (Math.random() * 50 + 1);
-            System.out.println(myInt[i]);
+            System.out.print(myInt[i] + " ");
 
         }
         int max = myInt[0];
@@ -86,7 +86,7 @@ public class test {
                 max = myInt[i];
             }
         }
-        System.out.println("the max Number is: " + max);
+        System.out.println("   the max Number is: " + max);
 
         int min = myInt[0];
         for (int i = 0; i < myInt.length; i++) {
@@ -95,21 +95,22 @@ public class test {
 
             }
         }
-        System.out.println("the min Number is: " + min);
+        System.out.print("the min Number is: " + min);
 
         int diff = 0;
         diff = max - min;
-        System.out.println("the Difference between max and min is: " + diff);
+        System.out.println("     The Difference is: " + diff);
         System.out.println("enter a number: ");
-        number[i] = elmira.nextInt();
-        int[] myNum = new int[6];
-        for (int i = 0; i < 6; i++) {
-            if (myInt[i] == number[i]) {
-                System.out.println("the" + number[i]);
-            } else {
-                System.out.println("display the " + number[i] + " is not found in the array");
+        number = elmira.nextInt();
+
+       for (int i = 0; i < 10; i++) {
+            if (number == myInt[i]) {
+                System.out.println("The number " + number + " is found at position " + (i + 1));
+                return;
             }
 
         }
+        System.out.println("The number is not found in the array");
     }
-}
+    }
+

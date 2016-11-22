@@ -30,7 +30,7 @@ public class q3 {
         for (int i = 0; i < 10; i++) {
             sum = sum + n;
         }
-        System.out.println( "The total is: "+sum);
+        System.out.println("The total is: " + sum);
     }
 
 }

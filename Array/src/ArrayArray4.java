@@ -21,6 +21,8 @@ public class ArrayArray4 {
             }
             System.out.println("     "+"     " +"  ");
         }
+        
+        
         }
        
              
